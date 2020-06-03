@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*设置页面样式*/
+body {
+    font-size: 12px;
+    background: url("02 课堂代码/第5天课后实训/images/bg.gif") no-repeat center top;
+}
+
+/*页面总样式*/
+.container {
+    width: 980px;
+    margin: 0 auto;
+    height: 2000px;
+}
+
+/*页首*/
+.header {
+    padding-bottom: 15px;
+    background: url("02 课堂代码/第5天课后实训/images/main_line.jpg") repeat-x left bottom;
+}
+
+.mainNav {
+    background: url("02 课堂代码/第5天课后实训/images/main_menu_bg.gif") repeat-x;
+}
+
+.mainNav ul {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 0 8px 0;
+    margin-left: 30px;
+}
+
+.mainNav ul li {
+    display: inline-block;
+    padding: 0 20px 0 18px;
+    border-right: 1px solid #88180f;
+}
+
+.mainNav ul li:last-child {
+    border: none;
+}
+
+.mainNav ul li a {
+    color: #fff;
+}
+
+.mainNav ul li a:hover {
+    color: #feff08;
+}
+
+/*子导航栏*/
+.subNav ul {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.subNav ul li {
+    display: inline-block;
+    border-right: 1px solid #999;
+    padding-right: 10px;
+    margin-right: 7px;
+}
+
+.subNav ul li:last-child {
+    border: none;
+}
+
+.subNav ul li a {
+    font-size: 12px;
+    color: #888;
+}
+
+.subNav ul li a:hover {
+    color: #000;
+}
+
+/*主体*/
+.content {
+    overflow: hidden;
+}
+
+/*侧栏*/
+.sidebar {
+    float: left;
+    width: 210px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.sidebar ul {
+    background: url("02 课堂代码/第5天课后实训/images/directory_bg_big.gif");
+    padding-left: 50px;
+}
+
+.sidebar ul li {
+    padding: 7px 0 7px;
+}
+
+.sidebar ul li a:hover {
+    color: #ff4f46;
+}
+
+/*内容区*/
+.main {
+    float: right;
+    width: 723px;
+    padding: 0 0 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.main .title {
+    margin-left: -20px;
+    background: url("02 课堂代码/第5天课后实训/images/content_bg.jpg");
+    padding: 0;
+
+}
+
+.main .title h1 {
+    font-size: 14px;
+    padding: 8px 0 7px 45px;
+}
+
+.main h2 {
+    font-size: 12px;
+    margin: 25px 0 10px;
+}
+
+.main p {
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+.main li {
+    list-style: decimal inside;
+    line-height: 2em;
+}
+
+.footer {
+    background: url("02 课堂代码/第5天课后实训/images/bottom_bg.gif") repeat-x;
+    margin-top: 15px;
+}
+
+.footer ul {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1px solid #999;
+    margin-right: 7px;
+}
+.footer ul li a{
+    color: #fff;
+}
+.footer ul li:last-child{
+    border:none;
+}
+.footer ul li a:hover{
+    color: rgb(244,255,87);
+}
