@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contentBox{
+        width: 1000px;
+        height: 1000px;
+        border: 3px solid greenyellow;
+        display: flex;
+
+        /* 默认是：靠最前水平对齐，通俗说就是靠左水平对齐 */
+        /* justify-content:flex-start; */
+
+        /* 居中水平对齐 */
+        /* justify-content: center; */
+
+        /* 靠最后水平对齐，通俗说就是靠右水平对齐 */
+        /* justify-content: flex-end; */
+
+        /* 水平平分空间 */
+        /* justify-content:space-evenly; */
+
+        /* 两端水平对齐 */
+        /* justify-content: space-between; */
+
+        /* 默认是：靠最上面垂直对齐 */
+        /* align-items: flex-start; */
+
+        /* 居中垂直对齐 */
+        /* align-items: center; */
+
+        /* 居底垂直对齐 */
+        /* align-items: flex-end; */
+
+        /* 默认值。元素将水平显示，它的横纵轴不变 */
+        /* flex-direction: row; */
+
+        /* 项目将垂直显示,值得一提的是：它的横纵轴改变了，故 justify-content 跟 align-items 效果 作用的轴也跟着改变了。
+        举个例子：使用该属性后，想要元素垂直并且平均分布，需要使用 justify-content:space-evenly; 
+        有趣的是，也并没有  align-items:space-evenly; 这个用法，所以不担心用错。*/
+        /* flex-direction: column; */
+
+
+
+        
+
+        
+        
+
+
+    }
+    .contentBox div{
+        border: 5px solid greenyellow;
+        margin:auto 0;
+        text-align: center;
+        
+        flex: 1;
+    }
+    
+</style>
+<body>
+    <div class="contentBox">
+        <!-- 在Flex布局中，想要让单个元素，占据特定比例，可以为元素单独添加Flex属性，如下 -->
+        <div style="color: black; flex: 2;">11111111111111</div>
+        <div style="color: greenyellow; ">11111111111111</div>
+        <div style="color: rgb(224, 20, 20);">11111111111111</div>
+        <div style="color: rgb(80, 10, 160); ">11111111111111</div>
+        <div style="color: rgb(12, 212, 179); ">11111111111111</div>
+    </div>
+    
+</body>
+</html>
